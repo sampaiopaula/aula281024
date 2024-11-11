@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+   /* char letra='a';
+    char letra2='6';
+
+      char texto [20]="Ola";
+      texto[2]= 'e';
+      printf("%s\n", texto);
+   */
+   
+    /*
+    char texto [50];
+    printf("Escreva seu nome completo:");
+    fgets(texto, 10 ,stdin);
+    printf("\n%s\n" , texto );
+      */
+   
+  /*letra='a';
+    
+    char texto [50];
+    printf("Escreva seu nome completo:");
+    fgets(texto, 10 ,stdin);
+    puts(texto);
+  */
+ 
+    char texto [20]= "ola minha gente";
+    for(int i = 0; i< strlen(texto);i++) {
+        if(texto[i] == 'a'){
+            printf("4", texto[i]);
+            
+        }else{ 
+            rintf("%c", texto[i]);
+            
+        }
+        }
+   ;
+  
+  
+    return 0;
+}
